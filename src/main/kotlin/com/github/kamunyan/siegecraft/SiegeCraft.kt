@@ -23,6 +23,8 @@ class SiegeCraft : JavaPlugin() {
     }
 
     override fun onEnable() {
+        WorldCreator("lobby").environment(World.Environment.NORMAL).createWorld()
+
         SpawnConfig.loadConfig()
 
         //Register events
