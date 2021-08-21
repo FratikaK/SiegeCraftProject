@@ -1,0 +1,4 @@
+name: SiegeCraft
+version: 1.0
+main: com.github.kamunyan.siegecraft.SiegeCraft
+api-version: 1.16
